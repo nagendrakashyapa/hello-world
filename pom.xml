@@ -213,17 +213,7 @@
     <url>http://github.com/jleetutorial/maven-project</url>
   </scm>
          
-           <plugin>
-    <groupId>org.apache.tomcat.maven</groupId>
-    <artifactId>tomcat7-maven-plugin</artifactId>
-    <version>2.2</version>
-    <configuration>
-        <url>http://localhost:8080/manager/text</url>
-        <server>tomcat</server>
-        <username>tomcat123</username>
-        <password>tomcat123</password>
-    </configuration>
-</plugin>
+      
 
   <prerequisites>
     <maven>3.0.3</maven>
